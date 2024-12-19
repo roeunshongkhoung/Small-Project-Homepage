@@ -1,0 +1,93 @@
+// Initialize ScrollReveal
+ScrollReveal({
+  reset: true,
+  distance: "40px", // Reduced movement distance
+  duration: 1000, // Faster animation duration
+  delay: 150, // Slightly reduced base delay
+  easing: "ease-in-out",
+});
+
+// Hero Section Animations
+ScrollReveal().reveal(".hero-section-title-details-1", {
+  delay: 50, // Reduced delay
+  origin: "left",
+});
+ScrollReveal().reveal(".hero-section-title-details-h1", {
+  delay: 100,
+  origin: "left",
+});
+ScrollReveal().reveal(".hero-section-title-details-2", {
+  delay: 150,
+  origin: "left",
+});
+ScrollReveal().reveal(".hero-section-photo", { delay: 200, origin: "right" });
+
+// Categories Section Animations
+ScrollReveal().reveal(".categories-title p", { delay: 50, origin: "top" });
+ScrollReveal().reveal(".categories-title h1", { delay: 100, origin: "top" });
+ScrollReveal().reveal(".categories-card", {
+  delay: 150,
+  interval: 80, // Reduced interval for faster sequential reveal
+  origin: "bottom",
+});
+
+// Most Visited Section Animations
+ScrollReveal().reveal(".most-visited-container .categories-title p", {
+  delay: 50,
+  origin: "top",
+});
+ScrollReveal().reveal(".most-visited-container .categories-title h1", {
+  delay: 100,
+  origin: "top",
+});
+ScrollReveal().reveal(".destination-card", {
+  delay: 150,
+  interval: 150,
+  origin: "bottom",
+});
+
+// Explore Province Section Animations
+ScrollReveal().reveal(".eplore-province-title p", {
+  delay: 50,
+  origin: "left",
+});
+ScrollReveal().reveal(".eplore-province-title h1", {
+  delay: 100,
+  origin: "left",
+});
+ScrollReveal().reveal(".btn-seeMore", { delay: 150, origin: "right" });
+ScrollReveal().reveal(".province-card", {
+  delay: 200,
+  interval: 120,
+  origin: "bottom",
+});
+
+// Easy and Fast Section Animations
+ScrollReveal().reveal(".eplore-province-title p", {
+  delay: 50,
+  origin: "top",
+});
+ScrollReveal().reveal(".eplore-province-title h1", {
+  delay: 100,
+  origin: "top",
+});
+ScrollReveal().reveal(".step", {
+  delay: 150,
+  interval: 150,
+  origin: "bottom",
+});
+ScrollReveal().reveal(".easy-and-fast-section-container img", {
+  delay: 200,
+  origin: "right",
+});
+
+// What We Do Section Animations
+ScrollReveal().reveal(".what-we-do-title", { delay: 50, origin: "top" });
+ScrollReveal().reveal(".we-do-box", {
+  delay: 100,
+  interval: 150,
+  origin: "bottom",
+});
+
+// Onclick Goto
+const about = document.getElementsByClassName(".about");
